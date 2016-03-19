@@ -1,0 +1,32 @@
+
+.hidden{
+  display:none;
+}
+
+.fmDuration{
+  border:1px solid #CCC;
+  width:auto;
+  display:inline-block;
+  padding:0.1em;
+  background:#FFF;
+}
+
+.fmDuration > .inputHrs,.fmDuration > .inputMin{
+  width:1.5em;
+  border:none;
+  background:none;
+  outline : none;
+  padding:0px;
+  text-align:center;
+  font-family:'Roboto',sans-serif;
+  font-size:12px;
+}
+
+sup.fmDurationRequired{
+  color:#E63434;
+  margin-left: 0.5em;
+}
+
+div.fmDurationRequired{
+  border:1px solid #E63434;
+}
