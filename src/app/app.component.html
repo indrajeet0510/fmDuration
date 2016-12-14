@@ -1,0 +1,20 @@
+<h1>
+  {{title}}
+</h1>
+
+<div class="container">
+
+  <ag-grid-ng2 #agGrid style="width: 100%; height: 350px;" class="ag-fresh"
+  [gridOptions]="gridOptions"
+  [columnDefs]="columnDefs"
+  [rowData]="rowData"
+  enableColResize
+  enableSorting
+  enableFilter
+  rowHeight="22"
+  rowSelection="multiple"
+
+               (rowClicked)="onRowClicked($event)"
+  ></ag-grid-ng2>
+
+</div>
